@@ -5,9 +5,7 @@ function App() {
 
   return (
     <MantineProvider forceColorScheme='dark'>
-      <div>
-        Cleared App
-      </div>
+        <h1>Cleared App</h1>
     </MantineProvider>
   )
 }
