@@ -5,10 +5,16 @@ import './App.css';
 import './scss/main.scss';
 import Header from './components/Header'
 
+// Mantine Imports
+
+import '@mantine/core/styles.css';
+import { MantineProvider } from '@mantine/core';
+
 function App() {
   const [count, setCount] = useState(0)
 
   return (
+    <MantineProvider>
     <>
       <div>
         <Header />
@@ -32,6 +38,7 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
     </>
+    </MantineProvider>
   )
 }
 
