@@ -4,7 +4,11 @@ import { MantineProvider } from '@mantine/core';
 function App() {
 
   return (
-    <MantineProvider><div>Cleared App</div></MantineProvider>
+    <MantineProvider forceColorScheme='dark'>
+      <div>
+        Cleared App
+      </div>
+    </MantineProvider>
   )
 }
 
