@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div>Test Change</div>
+    <div> { import.meta.env.VITE_API_URL } </div>
   )
 }
 
