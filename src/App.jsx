@@ -9,7 +9,6 @@ function App() {
 
   return (
     <MantineProvider forceColorScheme='dark'>
-        <h1>Cleared App</h1>
         <Header />
         <Button>Click Here</Button>
     </MantineProvider>
