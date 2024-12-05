@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Anchor, Box, Burger, Container, Group } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 import classes from './Header.module.css';
+import { FaComputer } from "react-icons/fa6";
 
 const userLinks = [
     { link: '#', label: 'Privacy & Security' },
@@ -51,7 +52,10 @@ const [active, setActive] = useState(0);
   return (
     <header className={classes.header}>
     <Container className={classes.inner}>
-      <p>Logo</p>
+      <div className={classes.logo}>
+        <FaComputer size={35}/>
+        <div className={classes.logo}>Tech Support</div>
+      </div>
       <Box className={classes.links} visibleFrom="sm">
         <Group justify="flex-end">{secondaryItems}</Group>
         <Group gap={0} justify="flex-end" className={classes.mainLinks}>
