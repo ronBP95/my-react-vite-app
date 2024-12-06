@@ -1,4 +1,4 @@
-import { MantineProvider, Button } from '@mantine/core';
+import { MantineProvider, Button, Flex } from '@mantine/core';
 // Styles import to add ALL MantineUI styles
 import '@mantine/core/styles.css';
 
