@@ -3,7 +3,7 @@ import { MantineProvider, Button } from '@mantine/core';
 import '@mantine/core/styles.css';
 
 // Component Imports
-import { Header } from './components/'
+import { Header, Hero } from './components/'
 
 function App() {
 
