@@ -10,7 +10,7 @@ function App() {
   return (
     <MantineProvider forceColorScheme='dark'>
         <Header />
-        <Button>Click Here</Button>
+        <Hero />
     </MantineProvider>
   )
 }
