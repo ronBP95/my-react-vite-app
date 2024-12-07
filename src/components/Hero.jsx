@@ -4,7 +4,7 @@ import classes from './Hero.module.css'
 
 const Hero = () => {
   return (
-    <div className={classes.heroleft}>
+    <div className={classes.hero}>
         <div>
             Hero Component Left
         </div>
